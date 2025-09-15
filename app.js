@@ -35,7 +35,6 @@ app.get("*", (req, res) => {
     message: "Route not found",
   });
 });
-console.log("*** process.env.DB_URL :: ", process.env.DB_URL);
 
 mongoose
   .connect(`${process.env.DB_URL}`, {

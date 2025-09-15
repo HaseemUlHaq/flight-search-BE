@@ -4,7 +4,7 @@
   "description": "Backend API for flight search application",
   "main": "server.js",
   "scripts": {
-    "start": "node --env-file=.env server.js",
+    "start": "node server.js",
     "dev": "nodemon --env-file=.env server.js"
   },
   "dependencies": {
